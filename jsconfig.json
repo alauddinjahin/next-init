@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".", // use this to avoid ../../ etc on every component pages 
+        "paths": {
+            "@/layouts/*":["components/layouts/*"] // create alias for import path
+        }
+    }
+}
